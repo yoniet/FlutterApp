@@ -16,7 +16,7 @@ class GradientContainer extends StatelessWidget {
         gradient: LinearGradient(
             colors: colors, begin: startAlignment, end: endAlignment),
       ),
-      child: const Center(child: StyledText("שלום יוני אטדגי")),
+      child: Center(child: Image.asset('assets/images/dice-1.png')),
     );
   }
 }
